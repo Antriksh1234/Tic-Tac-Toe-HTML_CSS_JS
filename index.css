@@ -1,0 +1,40 @@
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    display: inline-block;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-size: 100%;
+}
+
+#play_again_btn {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    margin-top: 2rem;
+    opacity: 0;
+}
+
+#play_again_btn:hover {
+    background-color: rgb(6, 92, 6);
+}
